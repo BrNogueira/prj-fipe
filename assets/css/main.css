@@ -48,8 +48,6 @@ body {
     display: flex;
     z-index: 999;
     text-decoration: none;
-
-    margin: 15px 0px;
 }
 #menu .top-bar-menu .content-menu {
     display: flex;
@@ -178,7 +176,6 @@ left: -350px;}
     height: auto;
 }
 .banner-home {
-    margin-top: -15px;
     background-image: url(../img/bg.png);
     height: calc(100vh + 100px);
     background-size: cover;
@@ -490,6 +487,7 @@ font-size: 25px;
     color: #fff;
     font-size: 14px;
 }
+
 #footer .menu-footer {
     width: 49px;
     height: 0px;
