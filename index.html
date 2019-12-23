@@ -21,11 +21,11 @@
     <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-
+ 
 </head>
 <body>
     <main>
-        <section>
+        
             <div id="top-bar">
                 <div class="container">
                     <div class="top-bar-content">
@@ -51,12 +51,12 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- <section>
+        
+        <!-- 
             <div id="menu" class="container">
 
-        </section> -->
-        <section>
+         -->
+        
             <div class="banner-home">
                 <div id="menu" class="container ">
                     <div class="top-bar-menu">
@@ -99,7 +99,7 @@
                                 </div>
                             </div>
                             <div class="dropdown">
-                                <div class="dropbtn"><a href="#">MBA/ESPECIALIZAÇÃO</a>
+                                <div class="dropbtn"><a href="#">MBA / ESPECIALIZAÇÃO</a>
                                     <div class="dropdown-content">
                                         <div class="col-md-6 float-left ">
                                             <li><a href="#">MBA Economia Aplicada <br><span>31 de Março de 2020</span></a>
@@ -246,8 +246,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section>
+        
+        
             <div class="container cards-home">
                 <div class="row col-md-12">
                     <div class="row-fluid-wrapper col-md-4" id="card-promo">
@@ -303,8 +303,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section>
+        
+        
             <!-- Slider main container -->
             <div class="swiper-container">
                 <!-- Additional required wrapper -->
@@ -377,22 +377,25 @@
                 <!-- If we need scrollbar -->
             </div>
 
-        </section>
-        <section>
+        
+        
             <section class="container-news">
-                <div class="wrapper">
-                    <p class="container pad-email"></p>
-                    <div class="form-send-email col-md-12">
-                        <span>Informe seu e-mail para receber informações da EESFipe:</span>
-                        <form method="POST" action="#">
-                            <input type="hidden" name="_token" value="AqTncH9CtiNO0bBqeSST5TBRZNlnkIcCAtVPOtYZ">
-                            <input type="email" name="email" placeholder="Seu melhor e-mail">
-                            <button type="submit">Quero Receber!</button>
-                        </form>
+                <div class="wrapper container">
+                    <div class="form-send-email row">
+                        <div class="col-lg-6 col-12">
+                            <span>Informe seu e-mail para receber informações da EESFipe:</span>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <form method="POST" action="#">
+                                <input type="hidden" name="_token" value="AqTncH9CtiNO0bBqeSST5TBRZNlnkIcCAtVPOtYZ">
+                                <input type="email" name="email" placeholder="Seu melhor e-mail">
+                                <button type="submit">Quero Receber!</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
-            </section>
-        </section>
+            
+        
         <footer id="footer">
             <section class="container">
                 <div class="wrapper">
@@ -441,13 +444,13 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            
         </footer>
     </main>
     <script>
         var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 3,
-            spaceBetween: 20,
+            slidesPerView:'auto',
+            spaceBetween: 10,
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
