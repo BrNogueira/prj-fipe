@@ -1,6 +1,8 @@
 @import "mba.css";  
 @import "faculdade.css";  
 @import "corpo-docente.css";  
+@import "infraestrutura.css";  
+@import "publicacoes.css";  
 
 @font-face {
     font-family: gotham-bold;
