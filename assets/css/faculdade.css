@@ -1,0 +1,57 @@
+@import "main.css";  
+
+.banner-fipe {
+    background-image: url(../img/banner_fipe.png);
+    height: 316px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.banner-fipe .title-banner {
+    display: flex;
+    position: absolute;
+    font-family: gotham-book-regular;
+    top: 245px;
+    margin: 0 auto;
+    left: 85px;
+    color: #eee;
+}
+
+.afipe {
+    background-image:url(../img/fundo_afipe.png);
+    height: 316px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+    z-index: 999;
+}
+
+.afipe p {
+    display: flex;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: gotham-book-regular;
+    font-size: 22px;
+    
+}
+
+.description {
+    padding: 77px 0;
+    text-align: left;
+    font-family: gotham-book-regular;
+    font-size: 18px;
+    letter-spacing: 0.18px;
+    color: #42444A;
+    opacity: 1;
+}
+
+#card-promo .title-facul {
+    text-align: center;
+    font-family: gotham-bold;
+    font-size:27px;
+    color: #42444A;
+    opacity: 1;
+}

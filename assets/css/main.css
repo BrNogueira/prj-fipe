@@ -1,3 +1,7 @@
+@import "mba.css";  
+@import "faculdade.css";  
+@import "corpo-docente.css";  
+
 @font-face {
     font-family: gotham-bold;
     src: url(../fonts/gotham-bold.otf);
@@ -362,6 +366,12 @@ font-size: 25px;
     font-size: 18px;
     color: #012D74;
 }
+
+.line-up {
+    border: 0.5px solid #42444A;
+    opacity: 1;
+    margin: 45px 0 0;
+}
 /* swiper-carrousel */
 
 .swiper-container {
@@ -509,9 +519,10 @@ font-size: 25px;
 }
 #footer #logo {
     display: flex;
-    padding: 0 35px;
+    padding: 0 75px;
     margin: 0 0px 25px 25px;
 }
+
 #footer ul {
     margin: 0;
     padding: 0;
