@@ -3,6 +3,8 @@
 @import "corpo-docente.css";  
 @import "infraestrutura.css";  
 @import "publicacoes.css";  
+@import "cursos-de-ferias.css";  
+@import "curta-duracao.css";
 
 @font-face {
     font-family: gotham-bold;
@@ -13,6 +15,11 @@
     font-family: gotham;
     src: url(../fonts/gotham.otf);
   }
+  @font-face {
+    font-family: gotham-medium;
+    src: url(../fonts/gotham-medium.ttf);
+  }
+  
   @font-face {
     font-family: gotham-book-regular;
     src: url(../fonts/gotham.otf);
@@ -108,6 +115,9 @@ opacity: 1;
 }
 
 /* menudropdown */
+.dropbtn a:checked{
+color: #E30612;
+}
 .dropbtn a{
     color: white;
     padding: 16px;
@@ -272,12 +282,10 @@ left: -350px;}
 }
 
 .cards-home {
-    margin-bottom: 45px;
+    margin:45px 0;
 }
 /* depoimentos */
-#card-promo {
-    margin-top:40px;
-}
+
 #card-promo a {
     text-decoration: none;
 }
@@ -307,9 +315,6 @@ font-size: 25px;
 
 /* noticias */
 
-#card-news {
-    margin-top:40px;
-}
 #card-news a {
     text-decoration: none;
 }
@@ -336,7 +341,8 @@ font-size: 25px;
 #card-news p {
     font-family: gotham-book-regular;
     font-size: 18px;
-    color: #42444A
+    color: #42444A;
+    margin-left: 70px;
 }
 
 /* eventos */

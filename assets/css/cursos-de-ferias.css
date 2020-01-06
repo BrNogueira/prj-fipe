@@ -1,7 +1,7 @@
 @import "main.css";  
 
-.banner-mba {
-    background-image: url(../img/banner_mba.png);
+.banner-ferias {
+    background-image: url(../img/banner_cursoferias.png);
     height: 316px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@
     padding-top: 80px;
 }
 
-.banner-mba .title-banner {
+.banner-ferias .title-banner {
     display: flex;
     position: relative;
     font-family: gotham-book-regular;
@@ -44,6 +44,7 @@
     color: #42444A;
     text-transform: uppercase;   
     font-family: gotham-medium;
+
 }
 
 #card-mba {

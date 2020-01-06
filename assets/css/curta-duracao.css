@@ -1,7 +1,7 @@
 @import "main.css";  
 
-.banner-mba {
-    background-image: url(../img/banner_mba.png);
+.banner-curta-duracao {
+    background-image: url(../img/banner_curtaduracao.png);
     height: 316px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@
     padding-top: 80px;
 }
 
-.banner-mba .title-banner {
+.banner-curta-duracao .title-banner {
     display: flex;
     position: relative;
     font-family: gotham-book-regular;
@@ -39,18 +39,11 @@
     text-decoration: none;
 }
 
-#card-promo .title-mba {
+#card-promo .title-curta {
     font-size: 30px;
     color: #42444A;
     text-transform: uppercase;   
     font-family: gotham-medium;
-}
-
-#card-mba {
-    width: 100%;
-    height: 100%;
-    background: #F5F5F5;
-    padding: 50px 0 !important;
 }
 
 .content-cards {
