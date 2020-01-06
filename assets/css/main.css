@@ -5,6 +5,7 @@
 @import "publicacoes.css";  
 @import "cursos-de-ferias.css";  
 @import "curta-duracao.css";
+@import "graduacao.css";
 
 @font-face {
     font-family: gotham-bold;
