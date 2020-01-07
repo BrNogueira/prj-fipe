@@ -197,6 +197,7 @@ left: -350px;}
 .dropdown:hover .dropbtn a{background-color: #fff; color: #E30612;}
 
 /* Banner-home */
+
 #banner {
     top: 45px;
     left: 0;
@@ -204,6 +205,7 @@ left: -350px;}
     height: auto;
 }
 .banner-home {
+    font-family: gotham-book-regular;
     background-image: url(../img/bg.png);
     height: calc(100vh + 100px);
     background-size: cover;
@@ -283,7 +285,9 @@ left: -350px;}
 }
 
 .cards-home {
-    margin:45px 0;
+    margin-top:45px;
+    margin-bottom:45px;
+
 }
 /* depoimentos */
 
