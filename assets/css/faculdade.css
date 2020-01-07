@@ -1,5 +1,11 @@
 @import "main.css";  
 
+.route-bar #routes a {
+    color:#8E919A;
+    font-size: 20px;
+    font-family: gotham-book-regular;
+    text-decoration: none;
+}
 .banner-fipe {
     background-image: url(../img/banner_fipe.png);
     height: 316px;
@@ -51,7 +57,7 @@
 #card-promo .title-facul {
     text-align: center;
     font-family: gotham-medium;
-    font-size:30px;
+    font-size:27px;
     padding: 50px 0;
     color: #42444A;
     opacity: 1;

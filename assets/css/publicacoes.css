@@ -65,9 +65,6 @@
     border: 0;
     border-radius: 0;
 }
-.cards-publicacoes .card-deck {
-    padding: 60px 0;
-}
 
 .cards-publicacoes .card-deck .card-body {
     text-align: center;

@@ -253,50 +253,33 @@
                     <div class="row-fluid-wrapper col-md-4" id="card-promo">
                         <h1 class="title-brief">Depoimentos +</h1>
                         <p class="brief"></p>
-                        <a href="#">
                             <h3>Disponibilidade</h3>
-                            <p> Escolhi a mesma faculdade em todos os cursos realizados, devido àresponsabilidade…</p>
-                        </a>
-                        <a href="#">
+                            <p> Escolhi a mesma faculdade em todos os cursos realizados, devido à responsabilidade…</p>
                             <h3>Descomplicado</h3>
                             <p> Durante os 7 meses de curso, a gestora ofereceu todo apoio que o estudante precisa para
                                 concluir a graduação devidamente…</p>
-                        </a>
-                        <a href="#">
                             <h3>Satisfação</h3>
                             <p>Gostaria de deixar registrada minha satisfação com a faculdade e o excelente curso de
                                 gestão que acabei de concluir…</p>
-                        </a>
                     </div>
                     <div class="row-fluid-wrapper col-md-4" id="card-news">
                         <h1 class="title-news">Notícias +</h1>
                         <p class="news"></p>
-                        <a href="#">
                             <h3>Black Friday: Cursos Livres com 20% de desconto</h3>
                             <p>Saiba como funcionará a promoção</p>
-                        </a>
-                        <a href="#">
                             <h3>Vestibular 2020 – 2ª Chamada</h3>
                             <p> Confira os aprovados em 2ª chamada no Vestibular 2020</p>
-                        </a>
-                        <a href="#">
                             <h3>Fipe lamentao falecimento do apresentador e empresário Augusto Liberato</h3>
                             <p>A Instituição agradece por todacontribuição deste grande comunicador</p>
-                        </a>
                     </div>
                     <div class="row-fluid-wrapper col-md-4" id="card-event">
                         <h1 class="title-event">Eventos/Cursos Livres +</h1>
                         <p class="event"></p>
-                        <a href="#">
                             <h3>Gerenciamento de Crise</h3>
                             <p>Aprenda a análise estratégica com os principais conceitos e práticas de comunicação em
                                 situação de crise</p>
-                        </a>
-                        <a href="#">
                             <h3>Jornalismo de Viagem</h3>
                             <p> Desenvolva técnicas de reportagem e texto compartilhando experiências da estrada</p>
-                        </a>
-                        <a href="#">
                             <h3>SEO: Como impulsionar seusresultados no Marketing Digital – Fundamentos</h3>
                             <p> Planeje o processo de otimização de sites</p>
                         </a>
@@ -308,7 +291,7 @@
             <!-- Slider main container -->
             <div class="swiper-container">
                 <!-- Additional required wrapper -->
-                <div class="container swiper-wrapper">
+                <div class="swiper-wrapper">
                     <!-- Slides -->
                     <div class="swiper-slide">
                         <div class="card">
@@ -450,7 +433,7 @@
     </main>
     <script>
         var swiper = new Swiper('.swiper-container', {
-            slidesPerView:'auto',
+            slidesPerView:1,
             spaceBetween: 10,
             pagination: {
                 el: '.swiper-pagination',
@@ -461,21 +444,30 @@
                 prevEl: '.swiper-button-prev',
             },
                 breakpoints: {
-            // when window width is >= 320px
             320: {
-            slidesPerView: 2,
-            spaceBetween: 20
+            slidesPerView: 1,
+            spaceBetween: 20,
             },
-            // when window width is >= 480px
-            480: {
+            768: {
             slidesPerView: 3,
-            spaceBetween: 30
+            spaceBetween: 30,
             },
-            // when window width is >= 640px
-            640: {
-            slidesPerView: 4,
-            spaceBetween: 40
+            1024: {
+            slidesPerView: 3,
+            spaceBetween: 40,
             },
+            1440: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+            },
+            1900: {
+            slidesPerView: 3,
+            spaceBetween: 50
+            },
+            2560: {
+            slidesPerView: 3,
+            spaceBetween: 60
+            }
         }
         });
     </script>

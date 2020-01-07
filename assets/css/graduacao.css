@@ -34,7 +34,7 @@
 
 .route-bar #routes a {
     color:#8E919A;
-    font-size: 16px;
+    font-size: 20px;
     font-family: gotham-book-regular;
     text-decoration: none;
 }
@@ -48,10 +48,6 @@
 
 .content-cards {
     background-color: #f5f5f5;
-}
-
-.card-deck {
-    padding: 60px 0;
 }
 
 .card .btn-card{
