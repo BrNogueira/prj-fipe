@@ -296,10 +296,13 @@ margin: 45px;
     background-color: #f5f5f5;
 }
 
-.content-cards .card-deck .card {
+/* .content-cards .card-deck .card {
     margin-bottom: 40px;
-}
+} */
 
+.card-deck .card {
+    margin-left: 0;
+}
 .cards-home {
     margin-top:45px;
     margin-bottom:45px;
@@ -484,6 +487,8 @@ font-size: 25px;
 
 .blog-cards-home .swiper-slide .card .btn-card {
     padding: 15px;
+    height: 56px !important;
+    width: 328px !important;
 }
 
 
@@ -577,6 +582,7 @@ font-size: 25px;
     vertical-align: middle;
     color: #42444A;
     margin-top: 10px;
+    font-size: 20px;
     padding-right: 15px;
     text-align: center;
 
@@ -765,6 +771,12 @@ display: flex;
     }
     .blog-cards-home .row {
         margin-left: 0;
+    }
+
+    #footer .box-direitos {
+        display: inline-block;
+        width: 100%;
+        background: #1F1F27 0% 0% no-repeat padding-box;
     }
     #footer .direitos {
         margin-top: 110px;
