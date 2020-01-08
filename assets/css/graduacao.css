@@ -18,11 +18,11 @@
     /* left: 85px; */
     padding-top: 50px;
     color: #eee;
-    padding-left: 25px;
+    padding-left: 0;
 }
 
 #routes {
-    padding-left: 45px;
+    /* padding-left: 45px; */
 }
 .route-bar {
     display: flex;

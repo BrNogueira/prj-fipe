@@ -17,12 +17,12 @@
 
 .banner-fipe .title-banner {
     display: flex;
-    position: absolute;
+    position: relative;
     font-family: gotham-book-regular;
-    top: 245px;
     margin: 0 auto;
-    left: 85px;
+    padding-top: 50px;
     color: #eee;
+    padding-left: 0;
 }
 
 .afipe {
