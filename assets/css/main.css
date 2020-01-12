@@ -6,6 +6,9 @@
 @import "cursos-de-ferias.css";  
 @import "curta-duracao.css";
 @import "graduacao.css";
+@import "anpec.css";
+@import "outros-cursos.css";
+@import "in-company.css";
 
 @font-face {
     font-family: gotham-bold;
@@ -664,6 +667,7 @@ font-size: 25px;
     list-style: none;
     margin: 15px 0;
 }
+
 #footer ul li .btn-card {
     margin-top: 13px;
     border: 1px solid #fff;
