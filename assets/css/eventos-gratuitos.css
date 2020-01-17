@@ -1,7 +1,7 @@
 @import "main.css";  
 
-.banner-ferias {
-    background-image: url(../img/banners/banner_cursoferias.png);
+.banner-eventos-gratuitos {
+    background-image: url(../img/banners/banner_eventosgratuitos.png);
     height: 316px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@
     padding-top: 80px;
 }
 
-.banner-ferias .title-banner {
+.banner-eventos-gratuitos .title-banner {
     display: flex;
     position: relative;
     font-family: gotham-book-regular;
@@ -18,12 +18,9 @@
     /* left: 85px; */
     padding-top: 50px;
     color: #eee;
-    /* padding-left: 25px; */
+    padding-left: 0;
 }
 
-#routes {
-    /* padding-left: 45px; */
-}
 .route-bar {
     display: flex;
     align-items: center;
@@ -34,29 +31,23 @@
 
 .route-bar #routes a {
     color:#8E919A;
-    font-size: 16px;
+    font-size: 20px;
     font-family: gotham-book-regular;
     text-decoration: none;
 }
 
-#card-promo .title-mba {
+#card-promo .title-grad {
     font-size: 30px;
     color: #42444A;
+    text-align: left;
     text-transform: uppercase;   
     font-family: gotham-medium;
-
-}
-
-#card-mba {
-    width: 100%;
-    height: 100%;
-    background: #F5F5F5;
-    padding: 50px 0 !important;
 }
 
 .content-cards {
     background-color: #f5f5f5;
 }
+
 .card .btn-card{
     border: 1px solid #E30612;
     border-radius: 27px;
@@ -65,6 +56,7 @@
     font: Medium 18px/26px Gotham;
     letter-spacing: 0;
     color: #E30612;
+    background: none;
     text-transform: uppercase;
     opacity: 1;
 }
@@ -80,4 +72,54 @@
     border: 0.5px solid #42444A;
     opacity: 1;
     margin: 45px 0 0;
+}
+
+.desc-grad {
+    background-image:url(../img/fundo_vestibular.png);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+    z-index: 999;
+}
+
+.desc-grad .btn-vestibular {
+    border: 1px solid #FFFFFF;
+    border-radius: 27px;
+    opacity: 1;
+    text-align: center;
+    font-family: gotham;
+    letter-spacing: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.desc-grad .btn-vestibular:hover {
+    border: 1px solid #E30612;
+    color:#E30612 ;
+    text-transform: uppercase;
+}
+.desc-grad h3{
+    color: #FFFFFF;
+}
+
+.desc-grad p {
+    font-family: gotham-book-regular;
+    color: #eee;
+    margin-top: 45px;
+    font-size: 18px;
+    margin-bottom: 32px;
+
+}
+
+.desc-grad b{
+    font-family: gotham-bold;
+    color: #eee;
+    font-size: 30px;
+    padding: 0 15px;
+}
+
+.desc-grad .dates {
+    float: left !important;
 }

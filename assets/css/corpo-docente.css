@@ -1,7 +1,7 @@
 @import "main.css";  
 
 .banner-docente {
-    background-image: url(../img/banner_corpodoce.png);
+    background-image: url(../img/banners/banner_corpodoce.png);
     height: 316px;
     background-size: cover;
     background-repeat: no-repeat;

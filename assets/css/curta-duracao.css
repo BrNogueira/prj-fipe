@@ -1,7 +1,7 @@
 @import "main.css";  
 
 .banner-curta-duracao {
-    background-image: url(../img/banner_curtaduracao.png);
+    background-image: url(../img/banners/banner_curtaduracao.png);
     height: 316px;
     background-size: cover;
     background-repeat: no-repeat;

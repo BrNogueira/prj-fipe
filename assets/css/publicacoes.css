@@ -2,7 +2,7 @@
 @import "main.css";  
 
 .banner-publicacoes {
-    background-image: url(../img/banner_publicacoes.png);
+    background-image: url(../img/banners/banner_publicacoes.png);
     height: 316px;
     background-size: cover;
     background-repeat: no-repeat;

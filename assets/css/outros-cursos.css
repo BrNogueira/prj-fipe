@@ -1,7 +1,7 @@
 @import "main.css";  
 
 .banner-outros-cursos {
-    background-image: url(../img/banner_outroscursos.png);
+    background-image: url(../img/banners/banner_outroscursos.png);
     height: 316px;
     background-size: cover;
     background-repeat: no-repeat;

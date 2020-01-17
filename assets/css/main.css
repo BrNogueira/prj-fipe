@@ -9,16 +9,21 @@
 @import "anpec.css";
 @import "outros-cursos.css";
 @import "in-company.css";
+@import "capacitacao.css";
+@import "eventos-gratuitos.css";
+@import "biblioteca.css";
+@import "mba-economia-aplicada.css";
+  
+@font-face {
+    font-family: gotham;
+    src: url(../fonts/gotham.otf);
+  }
 
 @font-face {
     font-family: gotham-bold;
     src: url(../fonts/gotham-bold.otf);
   }
-  
-  @font-face {
-    font-family: gotham;
-    src: url(../fonts/gotham.otf);
-  }
+
   @font-face {
     font-family: gotham-medium;
     src: url(../fonts/gotham-medium.ttf);

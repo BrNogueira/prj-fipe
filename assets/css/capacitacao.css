@@ -6,8 +6,8 @@
     font-family: gotham-book-regular;
     text-decoration: none;
 }
-.banner-fipe {
-    background-image: url(../img/banners/banner_fipe.png);
+.banner-capacitacao {
+    background-image: url(../img/banners/banner_capacitação.png);
     height: 316px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
     padding-top: 80px;
 }
 
-.banner-fipe .title-banner {
+.banner-capacitacao .title-banner {
     display: flex;
     position: relative;
     font-family: gotham-book-regular;
@@ -25,24 +25,55 @@
     padding-left: 0;
 }
 
-.afipe {
+.capacitacao {
     background-image:url(../img/fundo_afipe.png);
     height: 316px;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    padding-top: 80px;
+    padding-top: 35px;
     z-index: 999;
 }
 
-.afipe p {
+.capacitacao h3 {
+    text-align: left;
+    color: #FFFFFF;
+    font-family: gotham-bold;
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+
+.capacitacao p {
     display: flex;
-    text-align: center;
+    text-align: left;
     color: #FFFFFF;
     font-family: gotham-book-regular;
-    font-size: 22px;
-    
+    font-size: 18px;
 }
+
+#section-capacitacao  {
+    text-align: center;
+    margin-top: 70px;
+}
+#section-capacitacao .btn-card{
+    margin-top: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: gotham-medium;
+    border-radius: 27px;
+    font-size: 18px;
+    padding: 18px 77px;
+    color: #E30612;
+    border: 1px solid #E30612;
+}
+
+#section-capacitacao  .btn-card:hover {
+    border: 1px solid #E30612;
+    color:#fff ;
+    background: #E30612;
+    text-transform: uppercase;
+}
+
 
 .description {
     padding: 77px 0;
@@ -54,6 +85,12 @@
     opacity: 1;
 }
 
+.description h3 {
+    color: #42444A;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
 #card-promo .title-facul {
     text-align: center;
     font-family: gotham-medium;
@@ -61,4 +98,10 @@
     padding: 50px 0;
     color: #42444A;
     opacity: 1;
+}
+
+.line-up-cap     {
+    border: 0.5px solid #42444A;
+    opacity: 1;
+    margin: 35px 15px;
 }
