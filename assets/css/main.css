@@ -13,11 +13,19 @@
 @import "eventos-gratuitos.css";
 @import "biblioteca.css";
 @import "mba-economia-aplicada.css";
-  
+@import "formularios.css";
+@import "credenciamento-mec.css";
+
 @font-face {
     font-family: gotham;
     src: url(../fonts/gotham.otf);
   }
+
+  @font-face {
+    font-family: gotham-ultra;
+    src: url(../fonts/gotham-ultra.otf);
+  }
+
 
 @font-face {
     font-family: gotham-bold;

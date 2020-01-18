@@ -1,0 +1,134 @@
+@import "main.css";  
+
+.banner-formulario-vestibular {
+    background-image: url(../img/banners/banner_formulario_vestibular.png);
+    height: 316px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.banner-formulario-mba {
+    background-image: url(../img/banners/banner_formulario_mba.png);
+    height: 316px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.banner-formulario-cursos {
+    background-image: url(../img/banners/banner_formulario_cursos.png);
+    height: 316px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.title-formulario {
+    color: #8E919A;
+    font-size: 20px;
+    margin: 25px;
+    font-family: gotham-book-regular;
+}
+.nav-tabs-vest {
+    margin: 60px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-tabs-vest li {
+    margin: 0 155px;
+    width: 170px;
+    text-align: center;
+}
+
+.nav-tabs-vest li:hover {
+    border-bottom: 2px solid #E30612;
+    width: 170px;
+    text-align: center;
+    font-family: gotham-ultra;
+
+}
+.nav-tabs-vest li:active {
+    border-bottom: 2px solid #E30612;
+    width: 170px;
+    text-align: center;
+    font-family: gotham-ultra;
+}
+
+.nav-tabs-vest li a{
+    text-decoration: none;
+    color: #42444A;
+
+}
+.description-formulario .content-forms {
+    display: flex;
+    padding-left: 230px;
+}
+
+.description-formulario .content-forms .form-group .label {
+    color: #42444A;
+    font-size: 20px;
+    text-align: right !important;
+    font-family: gotham-bold;
+}
+.description-formulario .form-group {
+    
+    display: flex;
+}
+
+.description-formulario .control-label {
+    text-align: right !important;
+}
+.description-formulario .form-group input {
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 0;
+    opacity: 1;
+}
+.description-formulario .form-group p {
+    font-size: 14px;
+    font-family: gotham-book-regular;
+    color: #8E919A;
+}
+
+.description-formulario .form-group a {
+    font-size: 20px;
+    font-family: gotham-book-regular;
+    color: #E30612;
+    text-decoration: underline;
+}
+
+.description-formulario .form-group .btn-vestibular {
+    display: flex;
+    background: #012D74;
+    width: 350px;
+    border-radius: 50px;
+
+}
+.description-formulario .form-group .btn-vestibular .text-btn-vestibular {
+    font-family: gotham-medium;
+    color: #fff;
+    font-size: 20px;
+    width: 300px;
+    text-transform: uppercase;
+    padding: 5px;
+
+}
+
+.description-formulario .form-group .btn-vestibular .img-vestibular-icon {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    padding: 5px;
+}
+.description-formulario .form-group .btn-vestibular .icon-btn-vestibular {
+    color: #fff;
+    width: 15px;
+    height: 15px;
+}

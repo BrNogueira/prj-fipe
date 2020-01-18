@@ -108,11 +108,14 @@
     border-bottom: 2px solid #E30612;
     width: 170px;
     text-align: center;
+    font-family: gotham-ultra;
+
 }
 .nav-tabs-mba li:active {
     border-bottom: 2px solid #E30612;
     width: 170px;
     text-align: center;
+    font-family: gotham-ultra;
 }
 
 .nav-tabs-mba li a{
