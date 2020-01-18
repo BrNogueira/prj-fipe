@@ -26,57 +26,30 @@
     padding-left: 0;
 }
 
-.capacitacao {
-    background-image:url(../img/fundo_afipe.png);
-    height: 316px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    padding-top: 35px;
-    z-index: 999;
+.promo-mba {
+    margin-top: 80px;
 }
 
-.capacitacao h3 {
-    text-align: left;
-    color: #FFFFFF;
-    font-family: gotham-bold;
-    font-size: 22px;
-    margin-bottom: 35px;
+.icon-mba-print {
+    width: 40px !important;
+    height: 40px !important;
 }
-
-.capacitacao p {
+.content-icons .box-icons .icon-mba {
+    width: 40px !important;
+    height: 40px !important;
+    margin-right: 15px;
+}
+.content-icons .box-icons {
     display: flex;
-    text-align: left;
-    color: #FFFFFF;
     font-family: gotham-book-regular;
     font-size: 18px;
 }
 
-#section-capacitacao  {
-    text-align: center;
-    margin-top: 70px;
-}
-#section-capacitacao .btn-card{
-    margin-top: 25px;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: gotham-medium;
-    border-radius: 27px;
-    font-size: 18px;
-    padding: 18px 77px;
-    color: #E30612;
-    border: 1px solid #E30612;
+.content-video {
+    float: right;
 }
 
-#section-capacitacao  .btn-card:hover {
-    border: 1px solid #E30612;
-    color:#fff ;
-    background: #E30612;
-    text-transform: uppercase;
-}
-
-
-.description {
+.description-sobre-curso {
     padding: 77px 0;
     text-align: left;
     font-family: gotham-book-regular;
@@ -86,7 +59,7 @@
     opacity: 1;
 }
 
-.description h3 {
+.description-sobre-curso h3 {
     font-family: gotham-bold;
     color: #42444A;
     font-weight: 700;
@@ -94,18 +67,82 @@
     text-transform: uppercase;
 
 }
-
-#card-promo .title-facul {
-    text-align: center;
-    font-family: gotham-medium;
-    font-size:27px;
-    padding: 50px 0;
-    color: #42444A;
-    opacity: 1;
+.content-matriz {
+    float: left;
 }
 
-.line-up-cap     {
+.content-matriz h3 {
+    font-family: gotham-bold;
+    font-size: 18px;
+    color: #42444A;
+}
+
+.content-matriz li {
+    list-style: none;
+    font-family: gotham-book-regular;
+    color: #42444A;
+}
+.content-promo-mba {
+    display: flex;
+}
+
+.line-up-cap-mba     {
     border: 0.5px solid #42444A;
     opacity: 1;
-    margin: 35px 15px;
+    margin: 15px 15px;
+}
+
+.nav-tabs-mba {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-tabs-mba li {
+    margin: 0 155px;
+    width: 170px;
+    text-align: center;
+}
+
+.nav-tabs-mba li:hover {
+    border-bottom: 2px solid #E30612;
+    width: 170px;
+    text-align: center;
+}
+.nav-tabs-mba li:active {
+    border-bottom: 2px solid #E30612;
+    width: 170px;
+    text-align: center;
+}
+
+.nav-tabs-mba li a{
+    text-decoration: none;
+    color: #42444A;
+
+}
+.icon-mba-prof{
+    width: 40px !important;
+    height: 40px !important;
+    margin-right: 18px;
+}
+.description-professores {
+    display: flex;
+    margin:0  52px;
+}
+
+.description-professores .content-prof {
+    display: flex;
+    margin-top: 52px;
+}
+.description-professores  .professores {
+    float: left;
+    
+}
+.description-professores .content-prof .content-prof-description h3{
+    font-family: gotham-bold;
+    color: #42444A;
+} 
+.description-professores .content-prof .content-prof-description p{
+        font-family: gotham-book-regular;
+        color: #42444A;
 }

@@ -1,7 +1,7 @@
 @import "main.css";  
 
 .banner-anpec {
-    background-image: url(../img/banner_anpec.png);
+    background-image: url(../img/banners/banner_anpec.png);
     height: 316px;
     background-size: cover;
     background-repeat: no-repeat;
