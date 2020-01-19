@@ -1,0 +1,287 @@
+@import "main.css";  
+
+.banner-acessibilidade {
+    background-image: url(../img/banners/banner_acessibilidade.png);
+    height: 316px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.banner-acessibilidade .title-banner {
+    display: flex;
+    position: relative;
+    font-family: gotham-book-regular;
+    /* top: 245px; */
+    margin: 0 auto;
+    /* left: 85px; */
+    padding-top: 50px;
+    color: #eee;
+    text-transform: uppercase;
+    padding-left: 0;
+}
+
+.route-bar {
+    display: flex;
+    align-items: center;
+    background-color: #F2F2F2;
+    color:#8E919A;
+    height: 70px;
+}
+
+.route-bar #routes a {
+    color:#8E919A;
+    font-size: 20px;
+    font-family: gotham-book-regular;
+    text-decoration: none;
+}
+#card-promo {
+    align-items: center;
+    display: flex;
+}
+
+#card-promo .title-grad {
+    font-size: 39px;
+    color: #012D74;
+    font-family: gotham-book-regular;
+    margin-bottom: 30px;
+}
+.cards-acessibilidade {
+    margin-top:45px;
+    margin-bottom:45px;
+    font-size: 27px;
+    color: #737373;
+    text-align: justify;
+    font-family: gotham-medium;
+}
+
+ #card-img {
+    margin-left: 80px;
+}
+
+.cards-acessibilidade .text-credencial {
+align-items: center;
+}
+
+.content-cards {
+    background-color: #f5f5f5;
+}
+
+
+.section-acessibilidade-manual {
+    display: flex;
+    background-color: #42444A;
+    text-align: center;
+}
+
+.section-acessibilidade-manual .eventos-outros-cursos {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.section-acessibilidade-manual .text-section-eventos {
+    padding: 25px 0px 25px 130px;
+    text-align: left;
+    align-items: center;
+}
+
+.fundo-acessibilidade {
+    background-image:url(../img/fundo_acessibilidade.png);
+    height: 556px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+    z-index: 999;
+}
+
+.fundo-acessibilidade h3{
+    color: #31A2E8;
+    font-family: gotham-bold;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.fundo-acessibilidade .description-acessibilidade-comand{
+display: flex;    
+}
+
+.fundo-acessibilidade .description-acessibilidade-comand p {
+    text-align: left;
+    color: #FFFFFF;
+    font-family: gotham-book-regular;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.fundo-acessibilidade .content-comand-acessibilidade .text-comand-dica {
+    margin-bottom: 1rem;
+
+}
+.fundo-acessibilidade .content-comand-acessibilidade .text-comand {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.description .date-description {
+    display: flex;
+}
+
+.description .date-description .up-red {
+color:  #E30612;
+}
+
+.description .date-description p{
+    color: #42444A;
+    font-size: 20px;
+    font-family: gotham-book-regular;
+}
+
+.description .date-description .text-programas{
+margin-bottom: 0;
+}
+
+.description .date-description .text-title-description {
+    font-family: gotham-bold;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.section-acessibilidade-manual {
+    display: flex;
+    background-color: #012D74;
+    text-align: center;
+    align-items: center;    
+}
+
+.section-acessibilidade-manual .eventos-outros-cursos {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.section-acessibilidade-manual .text-section-eventos {
+    padding: 25px 0px 25px 130px;
+    text-align: left;
+    align-items: center;
+}
+
+#card-news .btn-card {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: gotham-medium;
+    border-radius: 27px;
+    font-size: 17px;
+    padding: 15px 80px;
+    color: #fff;
+    background: #E30612;
+    border: 1px solid #E30612;
+
+}
+
+
+#card-news .btn-card:hover {
+    border: 1px solid #E30612;
+    color:#E30612 ;
+    background: #fff;
+}
+
+.section-acessibilidade-manual .text-section-eventos h3 {
+    font-size: 45px;
+    font-family: gotham-medium;
+    margin-bottom: 31px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.section-acessibilidade-manual .text-section-eventos p {
+    font-size: 18px ;
+    font-family: gotham-book-regular;
+    letter-spacing: 0.18px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+.section-acessibilidade-manual .btn-card{
+    margin-top: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: gotham-medium;
+    border-radius: 27px;
+    font-size: 17px;
+    padding: 18px 77px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.section-acessibilidade-manual  .btn-card:hover {
+    border: 1px solid #E30612;
+    color:#E30612 ;
+    text-transform: uppercase;
+}
+
+
+.line-up {
+    border: 0.5px solid #42444A;
+    opacity: 1;
+    margin: 45px 0 0;
+}
+
+
+.outros-cursos {
+    background-image:url(../img/fundo_outroscursos_incompany.png);
+    height: 556px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+    z-index: 999;
+}
+
+.outros-cursos  .title-incompany {
+    text-align: center;
+    font-size: 45px;
+    font-family: gotham-medium;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-bottom: 45px;
+}
+
+.outros-cursos p {
+    display: flex;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: gotham-book-regular;
+    font-size: 22px;
+    
+}
+
+.btn-case {
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+}
+
+.outros-cursos .btn-card {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: gotham-medium;
+    border-radius: 27px;
+    font-size: 17px;
+    padding: 18px 77px;
+    color: #fff;
+    border: 1px solid #fff;
+    
+}
+
+.outros-cursos .btn-card:hover {
+    border: 1px solid #E30612;
+    border-radius: 27px;
+    color: #E30612;
+
+}
