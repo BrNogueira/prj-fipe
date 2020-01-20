@@ -1,0 +1,100 @@
+@import "main.css";  
+
+.banner-cpa {
+    background-image: url(../img/banners/banner_cpa.png);
+    height: 316px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.banner-cpa .title-banner {
+    display: flex;
+    position: relative;
+    font-family: gotham-book-regular;
+    margin: 0 auto;
+    padding-top: 50px;
+    color: #eee;
+    text-transform: uppercase;
+    padding-left: 0;
+}
+
+.route-bar {
+    display: flex;
+    align-items: center;
+    background-color: #F2F2F2;
+    color:#8E919A;
+    height: 70px;
+}
+
+.route-bar #routes a {
+    color:#8E919A;
+    font-size: 20px;
+    font-family: gotham-book-regular;
+    text-decoration: none;
+}
+.cards-cpa {
+    margin-top:45px;
+    margin-bottom:45px;
+    font-size: 27px;
+    color: #737373;
+    text-align: justify;
+    font-family: gotham-medium;
+}
+
+.cards-cpa .text-credencial {
+align-items: center;
+}
+
+.content-cards {
+    background-color: #f5f5f5;
+}
+
+.fundo-cpa {
+    background-image:url(../img/fundo_CPA.png);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    z-index: 999;
+}
+
+.fundo-cpa .description-cpa{
+display: flex;    
+}
+
+.fundo-cpa .description-cpa p {
+    color: #FFFFFF;
+    font-family: gotham-book-regular;
+    font-size: 25px;
+}
+
+.description .date-description {
+    display: flex;
+}
+
+.description .date-description p{
+    color: #42444A;
+    font-size: 20px;
+    font-family: gotham-book-regular;
+}
+
+.description .date-description h3{
+    color: #E30612;
+    font-size: 30px;
+    font-family: gotham-bold;
+}
+
+.description .date-description .text-comand{
+margin-bottom: 0;
+}
+
+
+.line-up {
+    border: 0.5px solid #42444A;
+    opacity: 1;
+    margin: 45px 0 0;
+}

@@ -59,8 +59,8 @@ text-align: justify;
 .cards-fipe-cap {
     margin-top:45px;
     margin-bottom:45px;
-
 }
+
 
 #card-promo .title-fipe-cap {
     font-size: 55px;
@@ -69,15 +69,84 @@ text-align: justify;
     font-family: gotham-medium;
     text-transform: uppercase;
 }
-#card-news .fipe-cap-p {
-text-align: left;
-font-family: gotham-book-regular;
-font-size: 18px;
-letter-spacing: -0.18px;
-color: #42444A;
+
+.box-in-company {
+    display: flex;
 }
-.content-cards {
-    background-color: #f5f5f5;
+
+.box-in-company .card-in-company {
+    display: flex;
+    background: #f2f3f3;
+    width: 398px;
+    height: 555px;
+    margin: 15px;
+}
+.box-in-company .card-in-company .number-in-company {
+    font-family: gotham-medium;
+    font-size: 90px;
+    color: #42444A;
+    padding: 0px 11px;
+}
+
+.box-in-company .card-in-company .title-in-company {
+    font-family: gotham-bold;
+    font-size: 20px;
+    color: #42444A;
+}
+
+.box-in-company .card-in-company .content-text {
+    margin-top: 70px;
+    padding: 0px 20px 0px 0px;
+}
+
+.box-in-company .card-in-company p {
+    font-family: gotham-book-regular;
+    font-size: 20px;
+    color: #42444A;
+}
+.box-description-company {
+text-align: center;
+}
+
+.box-description-company h3{
+    font-family: gotham-bold;
+    color: #42444A;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 65px;
+}
+
+.button-contato {
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+.button-contato .btn-in-company {
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-size: 18px;
+    padding:  10px 25px;
+    font-family:Gotham-bold ;
+    border: 1px solid #E30612;
+    color: #E30612;
+}
+
+.button-contato .btn-in-company:hover {
+    color: #fff;
+    background: #E30612;
+}
+
+.box-description-company p{
+    font-family: gotham-book-regular;
+    color: #42444A;
+    font-size: 18px;
+}
+.up-black {
+    font-family: gotham-bold;
+color: #42444A;
 }
 
 .card .btn-card{
@@ -91,91 +160,6 @@ color: #42444A;
     background: #E30612;
     border: 1px solid #E30612;
 }
-
-.card .btn-card:hover {
-    border: 1px solid #fff;
-    color:#FFFFFF ;
-    background:#E30612 ;
-    text-transform: uppercase;
-}
-
-
-.section-eventos-cursos {
-    display: flex;
-    background-color: #42444A;
-    text-align: center;
-}
-
-.section-eventos-cursos .eventos-outros-cursos {
-    float: left;
-    width: 100%;
-    height: 100%;
-}
-
-.section-eventos-cursos .text-section-eventos {
-    padding: 25px 0px 25px 130px;
-    text-align: left;
-    align-items: center;
-}
-
-#card-news .btn-card {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: gotham-medium;
-    border-radius: 27px;
-    font-size: 17px;
-    padding: 15px 80px;
-    color: #fff;
-    background: #E30612;
-    border: 1px solid #E30612;
-
-}
-
-
-#card-news .btn-card:hover {
-    border: 1px solid #E30612;
-    color:#E30612 ;
-    background: #fff;
-}
-
-.section-eventos-cursos .text-section-eventos h3 {
-    font-size: 45px;
-    font-family: gotham-medium;
-    margin-bottom: 31px;
-    text-align: left;
-    letter-spacing: 0;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    opacity: 1;
-}
-
-.section-eventos-cursos .text-section-eventos p {
-    font-size: 18px ;
-    font-family: gotham-book-regular;
-    letter-spacing: 0.18px;
-    color: #FFFFFF;
-    opacity: 1;
-}
-
-
-.section-eventos-cursos .btn-card{
-    margin-top: 25px;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: gotham-medium;
-    border-radius: 27px;
-    font-size: 17px;
-    padding: 18px 77px;
-    color: #fff;
-    border: 1px solid #fff;
-}
-
-.section-eventos-cursos  .btn-card:hover {
-    border: 1px solid #E30612;
-    color:#E30612 ;
-    text-transform: uppercase;
-}
-
 
 .line-up {
     border: 0.5px solid #42444A;

@@ -1,0 +1,100 @@
+@import "main.css";  
+
+.banner-ouvidoria {
+    background-image: url(../img/banners/banner_ouvidoria.png);
+    height: 316px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.banner-ouvidoria .title-banner {
+    display: flex;
+    position: relative;
+    font-family: gotham-book-regular;
+    margin: 0 auto;
+    /* left: 85px; */
+    padding-top: 50px;
+    color: #eee;
+    padding-left: 0;
+}
+.description p {
+    font-size: 25px;
+    font-family: gotham-book-regular;
+}
+
+.box-send-contact .content-send-contact{
+    display: flex;
+}
+
+.box-send-contact .content-send-contact .form-control {
+    background: #42444A 0% 0% no-repeat padding-box;
+    width: 536px;
+    border: 1px solid #707070;
+    border-radius: 22px;
+    opacity: 1; 
+    color: #FFF;
+    font-family: gotham-light;
+}
+
+.box-send-contact .descripton-send-contact {
+    display: flex;
+}
+.box-send-contact .descripton-send-contact .form-control{
+    border: 1px solid #707070;
+    border-radius: 22px;
+    width: 100%;
+
+}
+.text-send {
+    margin-top: 47px;
+    color: #42444A;
+}
+.text-send textarea {
+    border: 1px solid #707070;
+    border-radius: 22px;
+    width: 100%;
+}
+
+.buttons-send-ouvidoria a {
+    text-decoration: none;
+}
+
+.buttons-send-ouvidoria i {
+    background: #42444a;
+    float: right;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+
+.send-ouvidoria .btn-ouvidoria{
+    float: right;
+    border: 1px solid #E30612;
+    border-radius: 27px;
+    opacity: 1;
+    text-align: center;
+    font-family: gotham-medium ;
+    font-size: 18px;
+    letter-spacing: 0;
+    color: #fff;
+    background:#E30612 ;
+    padding: 5px 75px;
+    margin-left: 25px;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.send-ouvidoria .btn-ouvidoria:hover {
+    border: 1px solid #fff;
+    color:#E30612 ;
+    background:#fff ;
+    text-transform: uppercase;
+}

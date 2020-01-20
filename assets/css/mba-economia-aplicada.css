@@ -49,6 +49,32 @@
     float: right;
 }
 
+.button-disciplinas {
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.button-disciplinas .btn-disciplinas {
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    border-radius: 50px;
+    font-size: 18px;
+    padding:  10px 25px;
+    font-family:Gotham-bold ;
+    border: 1px solid #E30612;
+    background: #E30612;
+    color: #fff;
+}
+
+.button-disciplinas .btn-disciplinas:hover {
+    color: #E30612;
+    background: #fff;
+
+}
+
+
 .description-sobre-curso {
     padding: 77px 0;
     text-align: left;
@@ -84,6 +110,7 @@
 }
 .content-promo-mba {
     display: flex;
+    margin-bottom: 80px;
 }
 
 .line-up-cap-mba     {

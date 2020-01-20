@@ -17,6 +17,9 @@
 @import "credenciamento-mec.css";
 @import "termo-privacidade.css";
 @import "acessibilidade.css";
+@import "cpa.css";
+@import "bolsa-de-estudo.css";
+@import "ouvidoria.css";
 
 @font-face {
     font-family: gotham;
