@@ -53,24 +53,6 @@
 .card-deck {
     margin-bottom: 15px;
 }
-.card .btn-card{
-    border: 1px solid #E30612;
-    border-radius: 27px;
-    opacity: 1;
-    text-align: center;
-    font: Medium 18px/26px Gotham;
-    letter-spacing: 0;
-    color: #E30612;
-    text-transform: uppercase;
-    opacity: 1;
-}
-
-.card .btn-card:hover {
-    border: 1px solid #fff;
-    color:#FFFFFF ;
-    background:#E30612 ;
-    text-transform: uppercase;
-}
 
 .line-up {
     border: 0.5px solid #42444A;

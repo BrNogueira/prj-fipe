@@ -97,7 +97,7 @@
     opacity: 1;
 }
 
-.card .btn-card:hover {
+.cards-publicacoes  .card .btn-card:hover {
     border: 1px solid #fff;
     color:#FFFFFF ;
     background:#E30612 ;

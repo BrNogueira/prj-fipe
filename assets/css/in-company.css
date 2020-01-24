@@ -148,7 +148,7 @@ text-align: center;
     font-family: gotham-bold;
 color: #42444A;
 }
-
+/* 
 .card .btn-card{
     text-align: center;
     text-transform: uppercase;
@@ -159,7 +159,7 @@ color: #42444A;
     color: #fff;
     background: #E30612;
     border: 1px solid #E30612;
-}
+} */
 
 .line-up {
     border: 0.5px solid #42444A;
