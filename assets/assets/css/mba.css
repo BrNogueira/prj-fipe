@@ -1,0 +1,79 @@
+@import "main.css";  
+
+.banner-mba {
+    background-image: url(../img/banner_mba.png);
+    height: 316px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.banner-mba .title-banner {
+    display: flex;
+    position: relative;
+    font-family: gotham-book-regular;
+    /* top: 245px; */
+    margin: 0 auto;
+    /* left: 85px; */
+    padding-top: 50px;
+    color: #eee;
+    padding-left: 25px;
+}
+
+#routes {
+    padding-left: 45px;
+}
+.route-bar {
+    display: flex;
+    align-items: center;
+    background-color: #F2F2F2;
+    color:#8E919A;
+    height: 70px;
+}
+
+.route-bar #routes a {
+    color:#8E919A;
+    font-size: 16px;
+    font-family: gotham-book-regular;
+    text-decoration: none;
+}
+
+#card-promo .title-mba {
+    font-size: 30px;
+    color: #42444A;
+    text-transform: uppercase;   
+    font-family: gotham-medium;
+}
+
+#card-mba {
+    width: 100%;
+    height: 100%;
+    background: #F5F5F5;
+    padding: 50px 0 !important;
+}
+
+.card .btn-card{
+    border: 1px solid #E30612;
+    border-radius: 27px;
+    opacity: 1;
+    text-align: center;
+    font: Medium 18px/26px Gotham;
+    letter-spacing: 0;
+    color: #E30612;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.card .btn-card:hover {
+    border: 1px solid #fff;
+    color:#FFFFFF ;
+    background:#E30612 ;
+    text-transform: uppercase;
+}
+
+.line-up {
+    border: 0.5px solid #42444A;
+    opacity: 1;
+    margin: 45px 0 0;
+}

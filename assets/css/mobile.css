@@ -1,0 +1,32 @@
+@media (max-width: 575.98px) { 
+    
+}
+
+@media (max-width: 767.98px) { 
+    
+}
+
+@media (max-width: 991.98px) { 
+    
+
+}
+
+@media (max-width: 1199.98px) { 
+    
+}
+
+
+@media (max-width: 1370px) { 
+    .blog-cards-home .cards-pagination {
+        width: 95%;
+    }
+
+    #menu .top-bar-menu .menu-link {
+        padding: 0;
+    }
+
+    .dropbtn a {
+        padding: 10px;
+        font-size: 12px;
+    }
+}
