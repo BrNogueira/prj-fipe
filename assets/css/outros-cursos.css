@@ -121,13 +121,12 @@ color: #42444A;
     font-family: gotham-medium;
     border-radius: 27px;
     font-size: 17px;
+    margin-top: 45px;
     padding: 15px 80px;
     color: #fff;
     background: #E30612;
     border: 1px solid #E30612;
-
 }
-
 
 #card-news .btn-card:hover {
     border: 1px solid #E30612;
