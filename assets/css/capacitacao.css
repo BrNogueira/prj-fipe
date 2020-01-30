@@ -1,108 +1,44 @@
 @import "main.css";  
 
-.route-bar #routes a {
-    color:#8E919A;
-    font-size: 20px;
-    font-family: gotham-book-regular;
-    text-decoration: none;
-}
-.banner-capacitacao {
-    background-image: url(../img/banners/banner_capacitação.png);
-    height: 316px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    padding-top: 80px;
-}
-
-.banner-capacitacao .title-banner {
-    display: flex;
-    position: relative;
-    font-family: gotham-book-regular;
-    margin: 0 auto;
-    padding-top: 50px;
-    color: #eee;
-    padding-left: 0;
-}
-
-.capacitacao {
-    background-image:url(../img/fundo_afipe.png);
-    height: 316px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    padding-top: 35px;
-    z-index: 999;
-}
-
-.capacitacao h3 {
-    text-align: left;
-    color: #FFFFFF;
-    font-family: gotham-bold;
-    font-size: 22px;
-    margin-bottom: 35px;
-}
-
-.capacitacao p {
-    display: flex;
-    text-align: left;
-    color: #FFFFFF;
-    font-family: gotham-book-regular;
-    font-size: 18px;
-}
-
-#section-capacitacao  {
-    text-align: center;
-    margin-top: 70px;
-}
-
-#section-capacitacao .btn-card{
-    margin-top: 25px;
+#section-capacitacao .btn-card-contato {
     text-align: center;
     text-transform: uppercase;
-    font-family: gotham-medium;
-    border-radius: 27px;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 80px;
     font-size: 18px;
-    padding: 18px 77px;
+    padding:  10px 25px;
+    font-family:Gotham-bold ;
+    border: 1px solid #E30612;
     color: #E30612;
-    border: 1px solid #E30612;
 }
-
-#section-capacitacao  .btn-card:hover {
-    border: 1px solid #E30612;
-    color:#fff ;
+#section-capacitacao   .btn-card-contato:hover {
+    color: #fff;
     background: #E30612;
-    text-transform: uppercase;
 }
 
-
-.description {
-    padding: 77px 0;
-    text-align: left;
-    font-family: gotham-book-regular;
-    font-size: 18px;
-    letter-spacing: 0.18px;
-    color: #42444A;
-    opacity: 1;
-}
-
-.description h3 {
-    color: #42444A;
-    font-weight: 700;
-    margin-bottom: 35px;
-}
-
-#card-promo .title-facul {
+.button-contato .btn-card-contato {
     text-align: center;
-    font-family: gotham-medium;
-    font-size:27px;
-    padding: 50px 0;
-    color: #42444A;
-    opacity: 1;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-size: 18px;
+    padding:  10px 25px;
+    font-family:Gotham-bold ;
+    border: 1px solid #E30612;
+    color: #E30612;
+}
+.button-contato .btn-card-contato:hover {
+    color: #fff;
+    background: #E30612;
 }
 
-.line-up-cap     {
-    border: 0.5px solid #42444A;
-    opacity: 1;
-    margin: 35px 15px;
+.box-description-company p{
+    font-family: gotham-book-regular;
+    color: #42444A;
+    font-size: 18px;
+}
+
+.up-black {
+    font-family: gotham-bold;
+color: #42444A;
 }
