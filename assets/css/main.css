@@ -6,7 +6,6 @@
 @import "cpa.css";
 @import "bolsa-de-estudo.css";
 @import "ouvidoria.css";
-@import "mobile.css";
 
 @font-face {
     font-family: gotham;
@@ -934,6 +933,7 @@ font-size: 25px;
 }
 
 .banner-fipe .title-banner {
+    text-transform: uppercase;
     display: flex;
     position: relative;
     font-family: gotham-book-regular;
@@ -1652,6 +1652,83 @@ text-align: center;
 
 }
 
+/* capacitação */
+
+
+#section-capacitacao .btn-card-contato {
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 80px;
+    font-size: 18px;
+    padding:  10px 25px;
+    font-family:Gotham-bold ;
+    border: 1px solid #E30612;
+    color: #E30612;
+}
+#section-capacitacao   .btn-card-contato:hover {
+    color: #fff;
+    background: #E30612;
+}
+.capacitacao {
+    background-image:url(../img/fundo_afipe.png);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+    z-index: 999;
+}
+
+.capacitacao h3 {
+    font-size: 22px;
+    font-family: gotham-bold;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.capacitacao p {
+    font-size: 18px;
+    font-family: gotham-book-regular;
+    color: #FFFFFF;
+
+}
+
+.button-contato .btn-card-contato {
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-size: 18px;
+    padding:  10px 25px;
+    font-family:Gotham-bold ;
+    border: 1px solid #E30612;
+    color: #E30612;
+}
+.button-contato .btn-card-contato:hover {
+    color: #fff;
+    background: #E30612;
+}
+
+.box-description-company p{
+    font-family: gotham-book-regular;
+    color: #42444A;
+    font-size: 18px;
+}
+
+.up-black {
+    font-family: gotham-bold;
+color: #42444A;
+}
+
+/* economia-aplicada */
+
+.icon-mba-print {
+    display: block;
+}
+.icon-mba-print-mobile {
+    display: none;
+}
 
 /* footer */
 #footer {
@@ -1768,6 +1845,72 @@ display: flex;
       width: 100%;
     }
 
+    /* bolsa-de-estudos */
+
+    .cards-bolsa #card-news {
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .guri {
+        width: 300px;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .cards-estudo #card-promo {
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .brother {
+        align-items: center;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    /* CPA */
+    .banner-cpa .title-banner {
+        padding-top: 0;
+    }
+    .fundo-acessibilidade {
+        height: 565px;
+    }
+    /* termos-privacidade */
+    .banner-privacidade .title-banner {
+        padding-top: 0;
+    }
+    /* credenciamento-mec */
+    .section-credencial-mec .text-section-eventos {
+        padding: 25px 0px 25px 25px;
+    }
+    .hat-img {
+        width: 300px !important;
+    }
+    /* formularios */
+    .description-formulario .content-forms {
+        padding-left: 0px;
+    }
+    /* mba-economia-aplicada */
+    .content-video {
+        display: none;
+    }
+    
+    .content-video-mobile {
+        display: block;
+    }
+    .banner-mbaeconomiaapl .title-banner {
+        padding-top: 0;
+    }
+    .icon-mba-print {
+        display: none;
+    }
+    .icon-mba-print-mobile {
+        display: block;
+    }
     /* capacitacao */
     #section-capacitacao .btn-card-contato {
         font-size: 12px;
@@ -1776,6 +1919,11 @@ display: flex;
     #section-capacitacao   .btn-card-contato:hover {
         color: #fff;
         background: #E30612;
+    }
+
+    #section-capacitacao {
+        margin-top: 82px;
+        text-align: center; 
     }
     .description p {
         font-size: 18px;

@@ -48,6 +48,9 @@
 .content-video {
     float: right;
 }
+.content-video-mobile {
+    display: none;
+}
 
 .button-disciplinas {
     align-items: center;

@@ -36,12 +36,14 @@
     text-decoration: none;
 }
 
-#card-promo .title-grad {
+#card-promo-mec .title-grad-credenciamento {
     font-size: 39px;
+    margin-top: 121px;
     color: #012D74;
     font-family: gotham-book-regular;
     margin-bottom: 30px;
 }
+
 .cards-credencial {
     margin-top:45px;
     margin-bottom:45px;
@@ -61,7 +63,7 @@ text-align: justify;
 
 }
 
-#card-promo .title-fipe-cap {
+#card-promo-mec .title-fipe-cap {
     font-size: 55px;
     color: #E30612;
     text-align: right;
