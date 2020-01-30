@@ -1,12 +1,3 @@
-@import "mba.css";  
-@import "faculdade.css";  
-@import "corpo-docente.css";  
-@import "infraestrutura.css";  
-@import "publicacoes.css";  
-@import "cursos-de-ferias.css";  
-@import "curta-duracao.css";
-@import "graduacao.css";
-@import "anpec.css";
 @import "outros-cursos.css";
 @import "in-company.css";
 @import "capacitacao.css";
@@ -329,6 +320,13 @@ color: #E30612;
 }
 
 .content-cards {
+    display: contents;
+    background-color: #f5f5f5;
+    height: 630px;
+}
+
+.content-cards-mba {
+    display: contents;
     background-color: #f5f5f5;
     height: 630px;
 }
@@ -679,6 +677,569 @@ font-size: 25px;
     opacity: 1;
     float: right;
 }
+/* Publicações */
+
+.banner-publicacoes {
+    background-image: url(../img/banners/banner_publicacoes.png);
+    height: 316px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.banner-publicacoes .title-banner {
+    display: flex;
+    position: relative;
+    font-family: gotham-book-regular;
+    margin: 0 auto;
+    padding-top: 50px;
+    color: #eee;
+    padding-left: 0;
+            
+}
+
+
+.title-publicacoes {
+    display: flex;
+    padding: 60px 0;
+}
+
+.title-publicacoes .vecs {
+    background-image: url(../img/vecs.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    width: 212px;
+    height: 170px;
+    margin-right: 45px;
+}
+
+.title-publicacoes h3 {
+    color: #E30612;
+    font-family: gotham-bold;
+    font-size: 30px;
+}
+.title-publicacoes .line {
+    border: 0.5px solid #E30612;
+    width: 138px;
+    margin: 30px 0;
+    opacity: 1;
+}
+.title-publicacoes p {
+    font-family: gotham-book-regular;
+    color: #42444A;
+    font-size: 18px;
+}
+.line-cards {
+    padding: 35px;
+    width: 150px;
+    border-bottom: 2px solid #000;
+}
+.cards-publicacoes {
+    background-color: #FFFFFF;
+}
+
+.cards-publicacoes .card {
+    border: 0;
+    border-radius: 0;
+}
+
+.cards-publicacoes .card-deck .card-body {
+    text-align: center;
+    padding: 1.25rem 0;
+}
+
+.cards-publicacoes .card-deck .card-body .card-title {
+    text-align: left;
+}
+
+.cards-publicacoes .card-deck .card-body .card-text {
+    font-family: gotham-book-regular;
+    text-align: left;
+    color: #42444A;
+    font-size: 18px;
+    height: 150px;
+}
+
+.cards-publicacoes .card .btn-card{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: gotham-bold;
+    color: #E30612;
+    width: 328px;
+    font-size: 18px;
+    letter-spacing: 0;
+    border-radius: 27px;
+    border: 1px solid #E30612;
+}
+
+.cards-publicacoes  .card .btn-card:hover {
+    border: 1px solid #fff;
+    color:#FFFFFF ;
+    background:#E30612 ;
+    text-transform: uppercase;
+}
+/* mba */
+
+.banner-mba {
+    background-image: url(../img/banners/banner_mba.png);
+    height: 316px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.banner-mba .title-banner {
+    display: flex;
+    position: relative;
+    font-family: gotham-book-regular;
+    /* top: 245px; */
+    margin: 0 auto;
+    /* left: 85px; */
+    padding-top: 50px;
+    color: #eee;
+    padding-left: 0;
+}
+
+#card-promo .title-mba {
+    font-size: 30px;
+    color: #42444A;
+    text-transform: uppercase;   
+    font-family: gotham-medium;
+}
+
+#card-mba {
+    width: 100%;
+    height: 100%;
+    background: #F5F5F5;
+    padding: 50px 0 !important;
+}
+
+.route-bar {
+    display: flex;
+    align-items: center;
+    background-color: #F2F2F2;
+    color:#8E919A;
+    height: 70px;
+}
+
+
+.route-bar #routes a {
+    color:#8E919A;
+    font-size: 20px;
+    font-family: gotham-book-regular;
+    text-decoration: none;
+}
+
+/* Corpo-docente */
+
+.banner-docente {
+    background-image: url(../img/banners/banner_corpodoce.png);
+    height: 316px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.banner-docente .title-banner {
+    display: flex;
+    position: relative;
+    font-family: gotham-book-regular;
+    /* top: 245px; */
+    margin: 0 auto;
+    /* left: 85px; */
+    padding-top: 50px;
+    color: #eee;
+    padding-left: 0;
+}
+
+.desc-docente {
+    background-color: #42444A;
+    padding: 90px 0;
+}
+
+.desc-docente .img-docente {
+    display: flex;
+    width: 100%;
+    float: left;
+    height: 480px;
+    margin-right: 15px;
+}
+
+.desc-docente p{
+    font-family: gotham-book-regular;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.desc-docente .descriptions-docente {
+    display: inline-block;
+}
+
+
+.form-send-email-docente form {
+    display: flex;
+    align-items: center;
+}
+.form-send-email-docente {
+    padding: 60px 0;
+    width: 100%;
+    display: flex;
+    background-color: #42444A;
+}
+
+.form-send-email-docente input {
+    width: 536px;
+    height: 44px;
+    display: flex;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 15px 0px 0px 15px;
+    padding: 0 25px;
+    opacity: 1;
+}
+
+.form-send-email-docente span {
+    color: #FFFFFF;
+}
+
+.form-send-email-docente button {
+    color: #fff;
+    width: 260px;
+    height: 44px;
+    background: #012D74 0% 0% no-repeat padding-box;
+    border: 1px solid #012D74;
+    border-radius: 0px 15px 15px 0px;
+    opacity: 1;
+    float: right;
+}
+
+.container-news-docente {
+    background-color: #42444A;
+}
+
+.line-up-docente {
+    border: 0.5px solid #FFFFFF;
+    opacity: 1;
+}
+
+/* FACULDADE */
+
+.banner-fipe {
+    background-image: url(../img/banners/banner_fipe.png);
+    height: 316px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.banner-fipe .title-banner {
+    display: flex;
+    position: relative;
+    font-family: gotham-book-regular;
+    margin: 0 auto;
+    padding-top: 50px;
+    color: #eee;
+    padding-left: 0;
+}
+
+.afipe {
+    background-image:url(../img/fundo_afipe.png);
+    height: 316px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+    z-index: 999;
+}
+
+.afipe p {
+    display: flex;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: gotham-book-regular;
+    font-size: 22px;
+}
+
+.description {
+    padding: 77px 0;
+    text-align: left;
+    font-family: gotham-book-regular;
+    font-size: 18px;
+    letter-spacing: 0.18px;
+    color: #42444A;
+    opacity: 1;
+}
+
+
+#card-promo .title-facul {
+    text-align: center;
+    font-family: gotham-medium;
+    font-size:27px;
+    padding: 50px 0;
+    color: #42444A;
+    opacity: 1;
+}
+
+/* infraestrutura */
+
+.banner-infra {
+    background-image: url(../img/banners/banner_infraestrutura.png);
+    height: 316px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.banner-infra .title-banner {
+    display: flex;
+    position: relative;
+    font-family: gotham-book-regular;
+    /* top: 245px; */
+    margin: 0 auto;
+    /* left: 85px; */
+    padding-top: 50px;
+    color: #eee;
+    padding-left: 0;
+}
+
+.content-infra {
+    padding-left: 25px;
+}
+
+.title-infra {
+    display: flex;
+    padding: 60px 0;
+}
+
+.title-infra .vecs {
+    background-image: url(../img/vecs.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    width: 212px;
+    height: 170px;
+    margin-right: 45px;
+}
+
+.title-infra h3 {
+    color: #012D74;
+    font-family: gotham-bold;
+    font-size: 30px;
+}
+.title-infra .line {
+    border: 0.5px solid #012D74;
+    width: 138px;
+    margin: 15px 240px;
+    opacity: 1;
+}
+
+.title-infra p {
+    font-family: gotham-book-regular;
+    color: #42444A;
+    font-size: 27px;
+
+}
+
+.desc-infra {
+    background-image:url(../img/fundo_infraestrutura.png);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+    z-index: 999;
+}
+
+.desc-infra p {
+    font-family: gotham-book-regular;
+    color: #eee;
+    font-size: 18px;
+}
+
+.desc-infra b{
+    font-family: gotham-bold;
+    color: #eee;
+    font-size: 30px;
+    padding: 0 15px;
+}
+
+.desc-infra .dates {
+    float: left !important;
+}
+/* curso-de-ferias */
+
+.banner-ferias {
+    background-image: url(../img/banners/banner_cursoferias.png);
+    height: 316px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.banner-ferias .title-banner {
+    display: flex;
+    position: relative;
+    font-family: gotham-book-regular;
+    /* top: 245px; */
+    margin: 0 auto;
+    /* left: 85px; */
+    padding-top: 50px;
+    color: #eee;
+    /* padding-left: 25px; */
+}
+/* curta-duracao */
+
+
+.banner-curta-duracao {
+    background-image: url(../img/banners/banner_curtaduracao.png);
+    height: 316px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.banner-curta-duracao .title-banner {
+    display: flex;
+    position: relative;
+    font-family: gotham-book-regular;
+    /* top: 245px; */
+    margin: 0 auto;
+    /* left: 85px; */
+    padding-top: 50px;
+    color: #eee;
+    padding-left: 0;
+}
+/* graduação */
+
+.banner-grad {
+    background-image: url(../img/banners/banner_graduacao.png);
+    height: 316px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.banner-grad .title-banner {
+    display: flex;
+    position: relative;
+    font-family: gotham-book-regular;
+    /* top: 245px; */
+    margin: 0 auto;
+    /* left: 85px; */
+    padding-top: 50px;
+    color: #eee;
+    padding-left: 0;
+}
+
+#routes {
+    /* padding-left: 45px; */
+}
+.route-bar {
+    display: flex;
+    align-items: center;
+    background-color: #F2F2F2;
+    color:#8E919A;
+    height: 70px;
+}
+
+.route-bar #routes a {
+    color:#8E919A;
+    font-size: 20px;
+    font-family: gotham-book-regular;
+    text-decoration: none;
+}
+
+#card-promo .title-grad {
+    font-size: 30px;
+    color: #42444A;
+    text-transform: uppercase;   
+    font-family: gotham-medium;
+}
+
+.card .btn-card-grad{
+    border: 1px solid #E30612;
+    border-radius: 27px;
+    opacity: 1;
+    text-align: center;
+    width: 100%;
+    font: Medium 18px/26px Gotham;
+    letter-spacing: 0;
+    color: #E30612;
+    margin:10px;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.card .btn-card-grad:hover {
+    border: 1px solid #fff;
+    color:#FFFFFF ;
+    background:#E30612 ;
+    text-transform: uppercase;
+}
+
+.desc-grad {
+    background-image:url(../img/fundo_vestibular.png);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+    z-index: 999;
+}
+
+.desc-grad .btn-vestibular {
+    border: 1px solid #FFFFFF;
+    border-radius: 27px;
+    opacity: 1;
+    text-align: center;
+    font-family: gotham;
+    letter-spacing: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.desc-grad .btn-vestibular:hover {
+    border: 1px solid #E30612;
+    color:#E30612 ;
+    text-transform: uppercase;
+}
+
+.desc-grad h3{
+    color: #FFFFFF;
+}
+
+.desc-grad p {
+    font-family: gotham-book-regular;
+    color: #eee;
+    margin-top: 45px;
+    font-size: 18px;
+    margin-bottom: 32px;
+
+}
+
+.desc-grad b{
+    font-family: gotham-bold;
+    color: #eee;
+    font-size: 30px;
+    padding: 0 15px;
+}
+
+.desc-grad .dates {
+    float: left !important;
+}
+
+/* Outros-cursos */
 
 
 /* footer */
@@ -795,6 +1356,16 @@ display: flex;
     [class*="col-"] {
       width: 100%;
     }
+    .card-deck .card-body .btn-card {
+        width: 430px;
+        margin-top: 35px;
+    }
+
+    /* infraestrutura */
+    .desc-infra {
+        height: 540px;
+        padding-bottom: 80px;
+    }
 
     .title-banner {
         margin-top: 100px !important;
@@ -805,10 +1376,6 @@ display: flex;
 
     .swiper-slide {
         width: 690px;
-    }
-
-    .box-text {
-        height: 220px;
     }
 
     .mobile-box {
@@ -874,10 +1441,11 @@ display: flex;
         height: 419px;
     }
 
-    .btn-card {
+    /* .btn-card {
         width: 170px;
         font-size: 12px;
     }
+     */
     #card-img {
         max-width: 100%;
         align-items: center;
@@ -887,7 +1455,7 @@ display: flex;
     .content-cards {
         height: 560px;
     }
-    
+
     #menu {
         display: none;
     } 
@@ -982,10 +1550,32 @@ display: flex;
     .btn-biblioteca-virtual {
         display: block;
     }
+    /* anpec */
     
+.banner-anpec {
+    background-image: url(../img/banners/banner_anpec.png);
+    height: 316px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.banner-anpec .title-banner {
+    display: flex;
+    position: relative;
+    font-family: gotham-book-regular;
+    /* top: 245px; */
+    margin: 0 auto;
+    /* left: 85px; */
+    padding-top: 50px;
+    color: #eee;
+    padding-left: 0;
+}
+
     #footer .mobile-footer {
         display: block;
-        max-width: 50%;
+        max-width: 48%;
     }
 
     #footer .google-maps {
@@ -996,7 +1586,44 @@ display: flex;
         display: block;
         margin-bottom: 55px;
     }
-  }
+
+    /* PUBLICAÇÕES */
+
+    .card-deck {
+        margin-bottom: 15px;
+        display: inline-block;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .card-deck .card {
+        height: 600px;
+        width: 100%;
+        display: inline-block;
+    }
+
+    /* MBA */
+
+    .content-cards-mba .btn-card {
+        width: 50%;
+        font-size: 18px;
+        margin: 70px 0;
+    }
+
+    /* Corpo-docente */
+    .desc-docente .descriptions-docente {
+        margin-top: 45px;
+    }
+
+    /* cursos-de-ferias */
+    .curso-de-ferias  .btn-card{
+        width: 50%;
+        font-size: 18px;
+        margin: 70px 0;
+    }
+    /* curta-duracao */
+
+}
 /* tablet */
 @media (min-width:768px) and (max-width:1024px) {
     #top-bar-hamburger {
